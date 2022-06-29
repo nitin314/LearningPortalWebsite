@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./contactus.css">
+    <title>Contact US</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">  
+            <h3>NTutorial</h3>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+            </ul>
+        </div>
+        <div class="login-signup">
+            <button class="login">Login</button>
+            <button class="signup">Sign Up</button>
+            <!-- signup form -->
+            <aside class="form-section absolute hidden">
+                <h1 class="form-h1"><span>Registration Form</span><span class="form-close">X</span></h1>
+                <form action="#" >
+                    <section class="form-section-container">
+                        <label for="n">Name</label>
+                        <input type="text" name="" id="n">
+                        <label for="Date">Date of Birth</label>
+                        <input type="date" name="" id="Date">
+                        <label for="Country">Country</label>
+                        <input list="Country" id="c">
+                        <datalist id="Country">
+                            <option value="India">
+                            <option value="Australia">
+                            <option value="Japan">
+                            <option value="Indonesia">
+                        </datalist>
+                        <label for="Phone">Phone</label>
+                        <input type="tel" id="Phone">
+                        <label for="Email">Email</label>
+                        <input type="email" id="Email">
+                        <label for="Website">Website</label>
+                        <input type="url" id="Website">
+                        <Button class="form-button">Submit</Button>
+                    </section>
+                    
+                </form>
+            </aside>
+            <!-- signup form end -->
+            
+        </div>
+    </nav>
+    <main class="contactus-main">
+        <aside class="aside-contactus-1">
+            <h1>Contact Us</h1>
+            <div class="aside-container">
+                <span>Name : </span><span>Nitin</span>
+                <Span>Phone : </Span><span>+9100001111</span>
+                <span>Address : </span><span>asdf,asfdsdf,asfsf</span>
+            </div>
 
+        </aside>
+        <aside class="aside-contactus-2">
+
+        </aside>
+    </main>
+    <footer>
+        <p><a href="">Copyright 2022</a></p>
+        <p class="aboutUs"><a href="" >About Us</a></p>
+        <p><a href="">Contact Us</a></p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
