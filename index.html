@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Website</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">  
+            <h3>NTutorial</h3>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#learning-path">Learning Path</a></li>
+                <li><a href="#topics">Topics</a></li>
+                <li><a href="#practice">Practice</a></li>
+                <li><a href="#games">Games</a></li>
+            </ul>
+        </div>
+        <div class="login-signup">
+            <button class="login">Login</button>
+            <button class="signup">Sign Up</button>
+            <!-- signup form -->
+            <aside class="form-section absolute hidden">
+                <h1 class="form-h1"><span>Registration Form</span><span class="form-close">X</span></h1>
+                <form action="#" >
+                    <section class="form-section-container">
+                        <label for="n">Name</label>
+                        <input type="text" name="" id="n">
+                        <label for="Date">Date of Birth</label>
+                        <input type="date" name="" id="Date">
+                        <label for="Country">Country</label>
+                        <input list="Country" id="c">
+                        <datalist id="Country">
+                            <option value="India">
+                            <option value="Australia">
+                            <option value="Japan">
+                            <option value="Indonesia">
+                        </datalist>
+                        <label for="Phone">Phone</label>
+                        <input type="tel" id="Phone">
+                        <label for="Email">Email</label>
+                        <input type="email" id="Email">
+                        <label for="Website">Website</label>
+                        <input type="url" id="Website">
+                        <Button class="form-button">Submit</Button>
+                    </section>
+                    
+                </form>
+            </aside>
+            <!-- signup form end -->
+            
+        </div>
+    </nav>
+    <main>
+        <header>
+            <p>Welcome to My Website! <br>Hope you are doing Good<br><a href="" class="clickMe"><span>Click Here</span></a> to Proceed</p>
+        </header>
+        <!-- sections -->
+        <div class="main">
+            <section class="learning-path" id="learning-path">
+                <h3>Learning Path</h3>
+                <div class="learning-path-content main-grid">
+                    <a href="https://www.google.com" class="display-content"><div class="learning-path-item item-style ">Beginner</div></a>
+                    <a href="" class="display-content" ><div class="learning-path-item item-style">Intermediate</div></a>
+                    <a href="" class="display-content"><div class="learning-path-item item-style">Advance</div></a>
+                    <a href="" class="display-content"><div class="learning-path-item item-style">Expert</div></a>
+
+                </div>
+            </section>
+            <section class="topics" id="topics">
+                <h3>Topics</h3>
+                <div class="topics-content main-grid">
+                    <div class="topic-item item-style">Variables</div>
+                    <div class="topic-item item-style">Arrays</div>
+                    <div class="topic-item item-style">Functions</div>
+                    <div class="topic-item item-style">Classes</div>
+                </div>
+            </section>
+            <section class="practice" id="practice">
+                <h3>Practice</h3>
+                <div class="practive-content main-grid">
+                    <div class="practice-item item-style">Easy</div>
+                    <div class="practice-item item-style">Medium</div>
+                    <div class="practice-item item-style">Difficult</div>
+                    <div class="practice-item item-style">Veteran</div>
+                </div>
+            </section>
+            <section class="games" id="games">
+                <h3>Games</h3>
+                <div class="practive-content main-grid">
+                    <div class="practice-item item-style">Easy</div>
+                    <div class="practice-item item-style">Medium</div>
+                    <div class="practice-item item-style">Difficult</div>
+                    <div class="practice-item item-style">Veteran</div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p><a href="">Copyright 2022</a></p>
+        <p class="aboutUs"><a href="" >About Us</a></p>
+        <p><a href="./contactUs.html">Contact Us</a></p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
